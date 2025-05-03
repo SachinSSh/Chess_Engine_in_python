@@ -1,5 +1,5 @@
 import unittest
-from Chess-engine-in-python.engine.board import Board, PieceType, Color, Piece
+from Chess-Engine-in-python.engine.board import Board, PieceType, Color, Piece
 
 class TestBoard(unittest.TestCase):
     def test_initial_position(self):
