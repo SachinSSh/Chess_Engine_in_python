@@ -1,7 +1,7 @@
 import os
 import json
-from Chess-engine-in-python.engine.board import Board, Color, PieceType
-from Chess-engine-in-python.engine.move import MoveGenerator
+from Chess-Engine-in-python.engine.board import Board, Color, PieceType
+from Chess-Engine-in-python.engine.move import MoveGenerator
 
 class Evaluator:
     def __init__(self):
