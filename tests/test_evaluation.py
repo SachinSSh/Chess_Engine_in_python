@@ -1,6 +1,6 @@
 import unittest
-from chess-engine-in-python.engine.board import Board
-from chess-engine-in-python.engine.evaluation import Evaluator
+from Chess-engine-in-python.engine.board import Board
+from Chess-engine-in-python.engine.evaluation import Evaluator
 
 class TestEvaluation(unittest.TestCase):
     def test_material_evaluation(self):
