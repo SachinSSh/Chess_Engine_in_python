@@ -3,10 +3,10 @@ import argparse
 import sys
 import time
 
-from chess-engine-in-python.engine.board import Board
-from chess-engine-in-python.engine.search import Search
-from chess-engine-in-python.ui.cli import CLI
-from chess-engine-in-python.ui.gui import GUI
+from Chess-Engine-in-python.engine.board import Board
+from Chess-Engine-in-python.engine.search import Search
+from Chess-Engine-in-python.ui.cli import CLI
+from Chess-Engine-in-python.ui.gui import GUI
 
 def main():
     parser = argparse.ArgumentParser(description='Chess Engine')
