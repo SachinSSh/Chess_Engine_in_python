@@ -1,4 +1,4 @@
-from Chess-engine-in-python.engine.board import PieceType, Color
+from Chess-Engine-in-python.engine.board import PieceType, Color
 
 class Move:
     def __init__(self, from_square, to_square, is_capture=False, is_castling=False, 
