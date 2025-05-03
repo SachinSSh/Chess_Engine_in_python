@@ -1,5 +1,5 @@
 from chess-engine-in-python.engine.board import Board
-from chess_engine.engine.move import MoveGenerator
+from chess-engine-in-python.engine.move import MoveGenerator
 
 def perft(board, depth):
     """
