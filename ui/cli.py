@@ -2,9 +2,9 @@ import re
 import sys
 import time
 
-from chess_engine.engine.board import Board, Color, PieceType
-from chess_engine.engine.move import Move, MoveGenerator
-from chess_engine.engine.search import Search
+from chess-engine-in-python.engine.board import Board, Color, PieceType
+from chess-engine-in-python.engine.move import Move, MoveGenerator
+from chess-engine-in-python.engine.search import Search
 
 class CLI:
     def __init__(self, board, depth=4, time_limit=5.0):
