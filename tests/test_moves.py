@@ -1,6 +1,6 @@
 import unittest
-from Chess-Engine-in-python.engine.board import Board, PieceType, Color
-from Chess-Engine-in-python.engine.move import Move, MoveGenerator
+from Chess_Engine_in_python.engine.board import Board, PieceType, Color
+from Chess_Engine_in_python.engine.move import Move, MoveGenerator
 
 class TestMoves(unittest.TestCase):
     def test_pawn_moves(self):
