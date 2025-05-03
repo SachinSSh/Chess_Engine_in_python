@@ -1,5 +1,5 @@
 import random
-from Chess-engine-in-python.engine.board import PieceType, Color
+from Chess-Engine-in-python.engine.board import PieceType, Color
 
 class ZobristHash:
     def __init__(self):
