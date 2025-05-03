@@ -1,6 +1,6 @@
 from enum import Enum, auto
 import copy
-from Chess-Engine-in-python.utils.fen import parse_fen, generate_fen
+from Chess_Engine_in_python.utils.fen import parse_fen, generate_fen
 
 class PieceType(Enum):
     PAWN = auto()
