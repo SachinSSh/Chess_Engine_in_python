@@ -1,8 +1,8 @@
 
 
 import time
-from chess_engine.engine.evaluation import Evaluator
-from chess_engine.engine.move import MoveGenerator
+from chess-engine-in-python.engine.evaluation import Evaluator
+from chess-engine-in-python.engine.move import MoveGenerator
 
 class Search:
     def __init__(self, board, max_depth=4):
