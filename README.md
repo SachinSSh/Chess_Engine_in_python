@@ -30,15 +30,6 @@ To start the chess engine with the graphical interface:
 python -m Chess_Engine_in_python.main --gui
 ```
 
-### Command Line Interface
-
-For command-line mode (no GUI):
-
-```bash
-python -m Chess_Engine_in_python.main
-```
-
-
 
 ## Future Improvements
 
