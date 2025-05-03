@@ -1,4 +1,4 @@
-from chess_engine.utils.zobrist import ZobristHash
+from chess-engine-in-python.utils.zobrist import ZobristHash
 
 class TranspositionTable:
     def __init__(self, size=1000000):
