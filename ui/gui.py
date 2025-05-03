@@ -8,9 +8,9 @@ except ImportError:
     print("Tkinter not available. GUI mode requires Python with Tkinter support.")
     sys.exit(1)
 
-from Chess-Engine-in-python.engine.board import Board, Color, PieceType
-from Chess-Engine-in-python.engine.move import Move, MoveGenerator
-from Chess-Engine-in-python.engine.search import Search
+from Chess_Engine_in_python.engine.board import Board, Color, PieceType
+from Chess_Engine_in_python.engine.move import Move, MoveGenerator
+from Chess_Engine_in_python.engine.search import Search
 
 class GUI:
     def __init__(self, board, depth=4, time_limit=5.0):
