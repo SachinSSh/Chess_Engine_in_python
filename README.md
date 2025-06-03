@@ -38,4 +38,4 @@ python -m Chess_Engine_in_python.main --gui
 - Implement UCI protocol for compatibility with chess GUIs
 - Improve evaluation function with more chess knowledge
 - Add time controls and game clock
-hbhb
+hbhb appstori
